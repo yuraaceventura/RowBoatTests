@@ -1,6 +1,5 @@
 import pytest
-from main import RowBoat, BoatFullException, InvalidDirectionException
-from contextlib import nullcontext as does_not_raise
+from main import RowBoat
 
 
 @pytest.mark.parametrize("capacity, passengers", [

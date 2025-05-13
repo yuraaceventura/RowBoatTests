@@ -40,7 +40,3 @@ class RowBoat:
             "passengers": self.passengers.copy(),
             "capacity": self.capacity
         }
-
-boat = RowBoat(2)
-
-print(boat.read_status())
